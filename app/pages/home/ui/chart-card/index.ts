@@ -1,0 +1,1 @@
+export { default as ChartCard, type ChartCardProps } from './chart-card.vue'

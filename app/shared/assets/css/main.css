@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@utility text-title-1 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 1%;
+}
+
+@utility text-title-4 {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
+@utility text-title-5 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2%;
+}
+
+@utility text-body-2 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+@utility text-caption-1 {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 3%;
+}
+
+
+@theme {
+  --font-sans: "Golos Text", sans-serif;
+
+  --color-yellow-honeysuckle: #EFFE7D;
+  --color-accent-1-digital-lime: #EFFE7D;
+  --color-accent-2-blue: #007AFF;
+
+  --color-chart-pink: #F636B6;
+  --color-chart-aqua: #2AC5AB;
+  
+  --color-main-1-dark-gray: #616C72;
+
+  --color-add-1-greish-white: #F3F3F3;
+
+  --color-add-2-gray: #2B3033;
+  
+  --color-add-3-red: #FF6767;
+  --color-add-3-red-dark: #E63E3E;
+
+  --color-add-4-green: #3AEB6C;
+  --color-add-4-green-dark: #00A847;
+
+  --color-add-5-yellow-dark: #CD9400;
+
+
+  --color-text-primary: #1C212D;
+  --color-text-secondary: #737B8A;
+
+  --color-icon-primary: #1C212D;
+
+  --breakpoint-xs: 30rem;
+}
+
+@utility container {
+  width: 100%;
+  padding: --spacing(4);
+  margin-inline: auto;
+  max-width: 980px;
+}
