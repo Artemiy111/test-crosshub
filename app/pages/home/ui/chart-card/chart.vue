@@ -34,6 +34,7 @@ const gradientDefs = computed(
 <template>
   <VisXYContainer
     :data="points"
+    width="100%"
     :height="height"
     :x-domain="[xMin, xMax]"
     :y-domain="[yMin, yMax]"
